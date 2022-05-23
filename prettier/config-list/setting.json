@@ -1,0 +1,75 @@
+//vscode setting.json 末尾添加
+
+// eslint 格式相关设置
+"eslint.validate": [
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "javascript",
+      "autoFix": true
+    },
+    {
+      "language": "javascriptreact",
+      "autoFix": true
+    }
+  ],
+  
+  "eslint.options": {
+    "plugins": ["html", "vue"]
+  },
+  "eslint.autoFixOnSave": true,
+  "tslint.autoFixOnSave": true,
+
+  
+  "prettier.semi": true,      //分号
+  "prettier.singleQuote": true,   //单引号
+  "prettier.tabWidth": 2,
+  "prettier.jsxSingleQuote": true, //单引号
+  "prettier.proseWrap": "never",  //不折行
+  "prettier.bracketSpacing": true, // 括号加空格
+  "prettier.jsxBracketSameLine": false,
+  "prettier.trailingComma": "none", //json 末尾不要逗号
+  "prettier.printWidth": 120,  //最大不换行长度
+  "prettier.htmlWhitespaceSensitivity": "ignore",   //vue html标签>下掉
+   
+  // vue默认格式化方式
+  "vetur.format.defaultFormatter.html": "prettier",
+  "vetur.format.defaultFormatter.css": "prettier",
+  "vetur.format.defaultFormatter.js": "prettier",
+  "vetur.format.defaultFormatter.less": "prettier",
+  "vetur.format.defaultFormatter.postcss": "prettier",
+  "vetur.format.defaultFormatter.scss": "prettier",
+  "vetur.format.defaultFormatter.ts": "prettier",
+  "vetur.validation.template": false,
+
+  //vscode自带格式化设置
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+
+
+  // 默认格式化方式
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+

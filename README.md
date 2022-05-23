@@ -1,30 +1,34 @@
-# H5 Code Review
+# 前端安全生产 safety-in-production-of-FE
 
-[项目地址](https://gitlab.91jkys.com/f2e/h5-code-review.git)
+主要介绍前端安全生产相关的问题，包括但是不限如下问题：
 
-结合别人的经验，选择符合实际需求的 Code Review 形式，设定一些必要的 Code Review 标准。
+## 代码规范
 
-## 基础规则
+1. 代码开发约定规范；
+   1. prettier 及 eslint 基础配置查看`./prettier`；
+   2. 前端项目开发基础规范查看`./style-guide/前端项目开发基础规范.md`；
+2. 推荐规范；
+   1. 推荐使用的语法方式`./style-guide/推荐使用的语法方式.md`；
 
-[xmind 版本查看](./前端-H5-CodeReview.xmind)
-[md 版本查看](./前端H5-Code-Review.md)
+## 开发流程规范文档
 
-### 基础的语法写法推荐
+1. 项目开发详细文档，文档模板参考`./docs/xxx项目开发详细文档.md`；
+2. 项目开发 code-review 文档，记录文档模板参考`./docs/xxx 项目 CodeReview 文档.md`；
+   1. 说明：具体的 review 标准主要如下，主要关注如下的几个方面：
+      1. 功能完成度；
+      2. 代码结构，比如基本的代码复用/冗余代码/变量重复取值/基本的设计模式等；
+      3. 注意关注控制台的警告与报错问题；
+      4. 最好能给出一版的修改意见；
+      5. 对于被 review 的代码，需要修改后，在文档说明修改状况。
+3. 项目风险评估文档，文档模板参考`./docs/xxx项目发布风险评估及发布计划.md`
 
-[具体查看](./style-guide/推荐使用的语法方式.md)
+## 推荐开发模板
 
-## review 记录说明
+1. ts+Vue2.6<./templates/vue2-ts>
 
-记录模板`./report-template.md`，可以直接在**语雀**上添加文档说明 review 记录，这样方便处理截图。
+## 安全生产演练文档
 
-更多参考，已有的[互联网医院的 review 记录](https://91jkys.yuque.com/hnm3gl/cv46lf/lqahn1)。[院外药品销售的 review 记录](https://91jkys.yuque.com/hnm3gl/bceogz/pd4g4m)。
+1. 记录文档
+2. 举例说明，两种类型的都写一下
 
-## 推荐的项目模板
-
-查看`./templates`目录的模板类型。
-
-- vue2-ts
-
-## more
-
-欢迎建议，联系*qiuweiwei*。
+## 前端前沿问题跟踪文档
