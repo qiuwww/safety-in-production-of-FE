@@ -16,7 +16,7 @@
 
 ## 相关资源
 
-prd 地址：[https://91jkys.yuque.com/docs/share/204769ef-ee64-4576-83b9-cfabed309726?#%EF%BC%88%E5%AF%86%E7%A0%81%EF%BC%9Akig4%EF%BC%89](https://91jkys.yuque.com/docs/share/204769ef-ee64-4576-83b9-cfabed309726?#%EF%BC%88%E5%AF%86%E7%A0%81%EF%BC%9Akig4%EF%BC%89)
+prd 地址：[https://92jkys.yuque.com/docs/share/204769ef-ee64-4576-83b9-cfabed309726?#%EF%BC%88%E5%AF%86%E7%A0%81%EF%BC%9Akig4%EF%BC%89](https://92jkys.yuque.com/docs/share/204769ef-ee64-4576-83b9-cfabed309726?#%EF%BC%88%E5%AF%86%E7%A0%81%EF%BC%9Akig4%EF%BC%89)
 
 ## 工作量细化
 
